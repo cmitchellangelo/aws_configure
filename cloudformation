@@ -8,3 +8,30 @@ sudo aws cloudformation get-template --stack-name xxxx
 sudo aws cloudformation validate-template --template-url xxxx.template
 sudo aws cloudformation delete-stack --stack-name xxxx
 sudo aws cloudformation get-template --stack-name xxxx > yyyy        Places the file of the xxxx templete in yyyy file
+sudo aws cloudformation create-change-set
+sudo aws cloudformation delete-change-set
+sudo aws cloudformation describe-change-set
+sudo aws cloudformation execute-change-set
+sudo aws cloudformation list-change-sets
+sudo aws cloudformation create-stack-instances
+sudo aws cloudformation delete-stack-instances
+sudo aws cloudformation list-stack-instances
+sudo aws cloudformation update-stack-instances
+sudo aws cloudformation estimate-template-cost
+sudo aws cloudformation get-stack-policy
+sudo aws cloudformation set-stack-policy
+sudo aws cloudformation create-stack-set
+sudo aws cloudformation delete-stack-set
+sudo aws cloudformation describe-stack-set
+sudo aws cloudformation list-stack-sets
+sudo aws cloudformation update-stack-sets
+sudo aws cloudformation list-exports
+sudo aws cloudformation list-imports
+
+
+
+
+
+
+
+
