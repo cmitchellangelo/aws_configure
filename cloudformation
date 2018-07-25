@@ -1,0 +1,10 @@
+sudo aws cloudformation list-stacks   OR   sudo aws cloudformation list-stacks --stack-status-filter CREATE_COMPLETE
+sudo aws cloudformation describe-stacks
+
+sudo aws cloudformation create-stack --stack-name xxxx
+sudo aws cloudformation describe-stack-events --stack-name xxxx
+sudo aws cloudformation list-stack-resources --stack-name xxxx
+sudo aws cloudformation get-template --stack-name xxxx
+sudo aws cloudformation validate-template --template-url xxxx.template
+sudo aws cloudformation delete-stack --stack-name xxxx
+sudo aws cloudformation get-template --stack-name xxxx > yyyy        Places the file of the xxxx templete in yyyy file
